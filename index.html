@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head   content must come *after* these tags -->
+    <title>TicTacToe</title>
+
+    <!-- Bootstrap -->
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="tictactoe.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <h1 class="tada">Tic Tac Toe</h1>
+    <!-- board for playing -->
+    <div id="board" class="container">
+
+        <div class="row line1">
+            <a href="1" class="col-xs-4 box1"></a>
+            <a href="2" class="col-xs-4 box2"></a>
+            <a href="3" class="col-xs-4 box3"></a>
+        </div>
+        <div class="row line2">
+            <a href="4" class="col-xs-4 box4"></a>
+            <a href="5" class="col-xs-4 box5"></a>
+            <a href="6" class="col-xs-4 box6"></a>
+        </div>
+        <div class="row line3">
+            <a href="7" class="col-xs-4 box7"></a>
+            <a href="8" class="col-xs-4 box8"></a>
+            <a href="9" class="col-xs-4 box9"></a>
+        </div>
+
+        <div id="result" class="row">
+            <p class="col-xs-12">Consecutive  Draws: <span>0</span></p>
+
+            <p class="col-xs-6">Draws: <span>0</span></p>
+            <p class="col-xs-6">Losses: <span>0</span></p>
+
+            <p class="col-xs-12">Win: <span>0!</span></p>
+        </div>
+
+    </div>
+    <!--<div id="result" class="container">
+        
+    </div>-->
+
+    <!-- Modal 1 for player choice -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Choose  Your  Player</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn ronaldo">IronMan</button>
+                    <button type="button" class="btn messi">Hulk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 for computer wins -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Computer  Wins!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 for game has drawn -->
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Game  Has  Drawn</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 for Your turn -->
+    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Your  Turn  Now!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="tictactoe.js"></script>
+</body>
+
+</html>

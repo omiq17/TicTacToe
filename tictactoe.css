@@ -1,0 +1,131 @@
+body { 
+	max-width: 355px;
+	margin: auto;
+	background-color: sienna;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 3px !important;
+	color: #DFF0D8;
+	padding: 0px !important;
+}
+#board{
+	height: 345px;
+	padding-top: 25px;
+	width: 100%;
+}
+/**
+* broke the alphabetical order due to 
+* oveloading border
+*/
+.col-xs-4 {
+	padding: 0px !important;
+	height: 100%;
+    border: 2px solid #DFF0D8;
+}
+
+.box1 {
+	border-top : none;
+	border-left: none;
+}
+.box2 {
+	border-top : none;
+}
+.box3 {
+	border-top : none;
+	border-right: none;
+}
+.box4 {
+	border-left: none;
+}
+.box6 {
+	border-right: none;
+}
+.box7 {
+	border-left: none;
+	border-bottom: none;
+}
+.box8 {
+	border-bottom: none;
+}
+.box9 {
+	border-right: none;
+	border-bottom: none;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.row {
+	height: 115px;
+}
+#result {
+	margin-top: 25px;
+}
+#result p {
+	font-size: 21px;
+	text-align: center;
+}
+#result p span {
+	font-size: 23px;
+}
+
+/**
+ * Modal Design
+*/
+.btn {
+	color: white;
+	background: transparent;
+	padding: 9px 45px;
+	border: 2.51px solid #fff;
+	border-radius: 25px;
+	font-size: 21px;
+	letter-spacing: 3px !important;
+}
+.btn:hover {
+    color: sienna;
+    text-decoration: none;
+    background: white;
+    transition: .3s ease-out;
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+}
+.btn:focus {
+    outline: transparent;
+    outline: transparent;
+    outline-offset: 0px;
+}
+.messi {
+	float: left;
+}
+.modal-footer, .modal-header {
+	border: none;
+}
+.modal-content {
+	background-color: sienna;
+}
+.modal-header h4 {
+	font-size: 23px;
+	letter-spacing: 3px !important;
+	text-align: center;
+	color: white;
+}
+.ronaldo {
+	float: right;
+}
+
+/*
+For Responsive Design
+*/
+@media (max-width:400px) { 
+	.btn {
+		font-size: 17px;
+		letter-spacing: 3px !important;
+		padding: 9px 25px;
+	}	
+}
