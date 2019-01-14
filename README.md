@@ -1,5 +1,5 @@
 # TicTacToe
-A web application game developed with HTML, CSS, JavaScript, Bootstrap, JQuery.
+    A web application game developed with HTML, CSS, JavaScript, Bootstrap, JQuery.
 
 ## How To Play
 1. Download all the files and keep it into a folder.
